@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LarryLongbow</string>
+    <string name="typing">LarryLongbow is typing</string>
+    <string name="thanks">Thanks Larry</string>
+
+</resources>

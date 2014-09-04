@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="requests">
+        <item>!larry</item>
+        <item>Larry, help me!</item>
+        <item>I need your help, Larry!</item>
+        <item>Please Larry!</item>
+        <item>I seek your guidance, Larry!</item>
+        <item>What would Larry do?</item>
+    </string-array>
+
+    <string-array name="advice">
+        <item>play properly</item>
+        <item>avoid lava</item>
+        <item>solve it!</item>
+        <item>avoid the burning things</item>
+        <item>dodge the hands!</item>
+        <item>jump!</item>
+        <item>Kill a dragon!</item>
+        <item>slay a dragon!</item>
+        <item>you need to focus!</item>
+        <item>take the car!</item>
+        <item>you shouldnt have picked it!</item>
+        <item>be faster!</item>
+        <item>cheer up!</item>
+        <item>sue them</item>
+        <item>have an icecream</item>
+        <item>hide!</item>
+        <item>throw grenade!</item>
+        <item>I would use sniper</item>
+        <item>why dont you just dress as a nazi?</item>
+        <item>wear a gasmask</item>
+        <item>find it!</item>
+        <item>dodge</item>
+        <item>aim for the head</item>
+        <item>use the knife!</item>
+        <item>kill it!</item>
+        <item>better do as it says</item>
+        <item>nuke it!</item>
+        <item>get in there!</item>
+        <item>replay on hardest difficulty</item>
+        <item>sing along</item>
+        <item>stream some hearthstone</item>
+        <item>build that titan thing!</item>
+        <item>just fly over the building</item>
+        <item>have your troops attack your building</item>
+        <item>use the mosquito spray</item>
+        <item>hurrry!</item>
+        <item>hide in the crate!</item>
+        <item>pay</item>
+        <item>climb</item>
+        <item>shut up</item>
+        <item>hit him with the machete</item>
+        <item>follow the dinosaur</item>
+        <item>follow the dinosaur in the cave</item>
+        <item>shoot the car!</item>
+        <item>give me the gun</item>
+        <item>wait for dawn</item>
+        <item>you fix it</item>
+        <item>help him!</item>
+        <item>you can save him!</item>
+        <item>inject yourself with the dinosaur dna</item>
+        <item>replace the fence</item>
+        <item>you have to amputate the arm</item>
+        <item>take the carrot!</item>
+        <item>throw away the carrot</item>
+        <item>poke her in the eye</item>
+        <item>catch it in a pokeball</item>
+        <item>be faster you fool!</item>
+        <item>dont go in there you fool theres raptors there!</item>
+        <item>you must amputate her arm</item>
+        <item>be quiet</item>
+        <item>give her to the t.rex</item>
+        <item>dont be stupid</item>
+        <item>shoot it in the eye!</item>
+        <item>she was evil all along!</item>
+        <item>hit her with the branch</item>
+        <item>cook some eggs</item>
+        <item>do it in the riight order</item>
+        <item>fucking unlock them</item>
+        <item>unlock the doors</item>
+        <item>respect t-rex</item>
+        <item>smack it on the nose</item>
+        <item>strangle it!</item>
+        <item>continue</item>
+        <item>take her head!</item>
+        <item>you can fake crash stream if you are close to dying!</item>
+        <item>I would dualwield two shields</item>
+        <item>kick them down!</item>
+        <item>kill</item>
+        <item>say something in danish</item>
+        <item>kill it!</item>
+        <item>avoid the lightning</item>
+        <item>climb faster!</item>
+        <item>knock him down the stairs</item>
+        <item>bring your own bombs</item>
+        <item>hit someone with the brick!</item>
+        <item>put the building together again!</item>
+        <item>watchout!</item>
+        <item>check the oven!</item>
+        <item>dont yell</item>
+        <item>crush some skulls!</item>
+        <item>roll the dice!</item>
+        <item>hurry before it collapses!</item>
+        <item>kill the xenomorphs!</item>
+        <item>nuke the aliens!</item>
+        <item>take the bus!</item>
+        <item>speedrun sonic 2!</item>
+        <item>play eggzone!</item>
+        <item>do it!</item>
+        <item>put some armor on!</item>
+        <item>dance!</item>
+        <item>clean up</item>
+        <item>save him!</item>
+        <item>shape up!</item>
+        <item>use flamethrower!</item>
+        <item>pick the guy with the hat!</item>
+        <item>exploit the glitch</item>
+        <item>shoot with the bow!</item>
+        <item>I would use a flying spell</item>
+        <item>parry!</item>
+        <item>kidnap the car</item>
+        <item>build samurais!</item>
+        <item>play chess against each other!</item>
+        <item>build conquistadors!</item>
+        <item>make walls and hundreds of arrowtowers!</item>
+        <item>make walls out of towers!</item>
+        <item>I would get warelephants!</item>
+        <item>infect the water that goes to the enemy!</item>
+        <item>attack king henry!</item>
+        <item>defend yourself!</item>
+        <item>build tigers!</item>
+        <item>if you become allies with all you win the game!</item>
+        <item>if you kill you have to eat it too!</item>
+        <item>remove his swimgear so he drowns!</item>
+        <item>Most dragons tend to be fireimmune!</item>
+        <item>just shoot them all!</item>
+        <item>jump down there!</item>
+        <item>just run!</item>
+        <item>just hold on to it</item>
+        <item>hide around more!</item>
+        <item>hide in a barrel!</item>
+        <item>if you shoot him in the leg they have to take care of him</item>
+        <item>use a submarine!</item>
+        <item>careful with your neck</item>
+        <item>play some blackmetal!</item>
+        <item>avoid the scythe when you shoot!</item>
+        <item>hit that girl!</item>
+        <item>play sonic 2 now!</item>
+        <item>hide in the fridge like indiana jones!</item>
+        <item>hide in the sewers under the street!</item>
+        <item>use flash!</item>
+        <item>just shield bash her!</item>
+        <item>grab his cape!</item>
+        <item>laser him!</item>
+        <item>just break his fork!</item>
+        <item>break his neck!</item>
+        <item>fight!</item>
+        <item>turtles can be pretty dangerous</item>
+        <item>you need health</item>
+        <item>help poor strauss!</item>
+        <item>use the gravityforce gun!</item>
+        <item>use vaal orb on all your gear!</item>
+        <item>get some rarity man!</item>
+        <item>more magic</item>
+        <item>rob a spermbank!</item>
+        <item>Get a clowncar man</item>
+        <item>Get a tanK!</item>
+        <item>lift the thingy onto the truck</item>
+        <item>jump when he swings the axe</item>
+        <item>faster faster!</item>
+        <item>use the money cheatcode!</item>
+        <item>do it the other way</item>
+        <item>you must swing further</item>
+        <item>grab with the hands!</item>
+        <item>you need to grab it</item>
+        <item>use your hands</item>
+        <item>hurry waters rising!</item>
+        <item>get to the top man!</item>
+        <item>listen to the music</item>
+        <item>PLAY!</item>
+        <item>run!</item>
+        <item>eat!</item>
+        <item>eat the buffalo!</item>
+        <item>HIT IT IN THE ASS!</item>
+        <item>hit him in the head!</item>
+        <item>skeletons are weak to maces!</item>
+        <item>walk carefully!</item>
+        <item>beware of the boss!</item>
+        <item>dont die!</item>
+        <item>dont let them drink!</item>
+        <item>dont let him shoot you in the back!</item>
+        <item>hit him in the face!</item>
+        <item>yea trash the furniture!</item>
+        <item>avoid his mace!</item>
+        <item>dont forget the bowah!</item>
+        <item>hit him in the back!</item>
+        <item>push him down from a cliff or something</item>
+        <item>just bait him</item>
+        <item>maybe you can dodge that big guy and run for the spelldude and kill him and get his magicstaff to kill the big guy!</item>
+        <item>dont hit the wall!</item>
+        <item>dont let him ruin the floor!</item>
+        <item>you should get better looking clothes!</item>
+        <item>be careful!</item>
+        <item>you need to block!</item>
+        <item>crouch!</item>
+        <item>barrel roll!</item>
+        <item>dont get one shotted!</item>
+        <item>you need ze halberd!</item>
+        <item>you cant fight drunk!</item>
+        <item>dont hit the wall it slows the mace!</item>
+        <item>kill the first one really quick!</item>
+        <item>HEAL!</item>
+        <item>kill the gargoyles!</item>
+        <item>you need to dodge the fire!</item>
+        <item>dont run off the ledge man!</item>
+        <item>you need to dodge it</item>
+        <item>break the glass to the pokemon!</item>
+        <item>capture it!</item>
+        <item>use the bat on chest</item>
+        <item>play the piano!</item>
+        <item>you should have dodged that</item>
+        <item>use the bat</item>
+        <item>put her out of her misery</item>
+        <item>beat the kids!</item>
+        <item>yea steal other peoples stuff!</item>
+        <item>slip through</item>
+        <item>its hip to be square!</item>
+        <item>you are supposed to slow down</item>
+        <item>fix the weight man!</item>
+        <item>you need to make it balanced</item>
+        <item>make it even fatter!</item>
+        <item>make it straight!</item>
+        <item>shoot them</item>
+        <item>you should have read what she said</item>
+        <item>you need to be more careful</item>
+        <item>I would climb the pipes</item>
+        <item>you can jump on water!</item>
+        <item>dont fall!</item>
+        <item>dont go emo!</item>
+        <item>dont give up!</item>
+        <item>warpdrive now!</item>
+        <item>turn!</item>
+        <item>dont let the fire hit you</item>
+        <item>fire hurts you</item>
+        <item>dont stand in the middle</item>
+        <item>yea skip the shield and just roll around</item>
+        <item>push him!</item>
+        <item>go behind that building!</item>
+        <item>drink!</item>
+        <item>take him!</item>
+        <item>kite him!</item>
+        <item>use the keys!</item>
+        <item>follow your heart!</item>
+        <item>you need to block!</item>
+        <item>you need to aim!</item>
+        <item>regen mana man!</item>
+        <item>take the tower!</item>
+        <item>defend the tower!</item>
+        <item>buy mana regen thingy!</item>
+        <item>you are supposed to shoot him man!</item>
+        <item>buy stuff!</item>
+        <item>kill the kid!</item>
+        <item>take the thing</item>
+        <item>you need to win this game</item>
+        <item>take the power!</item>
+        <item>shoot the rockets with the bazooka</item>
+        <item>jump there!</item>
+        <item>dont jump into the fire</item>
+        <item>dont hit the tnt</item>
+        <item>put a lasercannon on it!</item>
+        <item>use the longbow!</item>
+        <item>use the slingshot!</item>
+        <item>hit him!</item>
+        <item>use the pistol!</item>
+        <item>you should have shot him!</item>
+        <item>block with the pistol!</item>
+        <item>you should have parried!</item>
+        <item>take it!</item>
+        <item>kill the humans!</item>
+        <item>destroy their homes!</item>
+        <item>destroy their ships!</item>
+        <item>take the water from them</item>
+        <item>just burn their farms</item>
+        <item>take a boat!</item>
+        <item>throw salt on it</item>
+        <item>put it on fire</item>
+        <item>heaöl!</item>
+        <item>take the ones that looks the best</item>
+        <item>kill the bird!</item>
+        <item>build griffons!</item>
+        <item>build elf allies and have them flank the orcs!</item>
+        <item>kill the towncenter!</item>
+        <item>kill the flying devil!</item>
+        <item>use the key!</item>
+        <item>close the door!</item>
+        <item>use the pink penguin!</item>
+        <item>build a spacemarine!</item>
+        <item>destroy the sun!</item>
+        <item>win the ferrari!</item>
+        <item>stab!</item>
+        <item>carry it for her!</item>
+        <item>sneak and backstab!</item>
+        <item>slap her</item>
+        <item>kill the communists!</item>
+        <item>sacrifice her!</item>
+        <item>loot it!</item>
+        <item>shoot him man!</item>
+        <item>pull the chain!</item>
+        <item>lvl up!</item>
+        <item>use an axe on the door!</item>
+        <item>run into a corner!</item>
+        <item>use explosion bombs!</item>
+        <item>have a feast!</item>
+        <item>use a bow and shoot the boss from far!</item>
+        <item>kill lewish!</item>
+        <item>give him a hug!</item>
+        <item>play it!</item>
+        <item>cut the tree!</item>
+        <item>take a swim!</item>
+        <item>use charizard</item>
+        <item>go for the ass!</item>
+        <item>roll!</item>
+        <item>avoid the quicksand</item>
+        <item>avoid it</item>
+        <item>use knife!</item>
+        <item>take the car and drive!</item>
+        <item>use camo clothes!</item>
+        <item>hey! crawl under a car!</item>
+        <item>get a teammate!</item>
+        <item>I would wear a helmet</item>
+        <item>I would use a tank</item>
+        <item>start the cieling fan!</item>
+        <item>avoid the water</item>
+        <item>dodge the flowers</item>
+        <item>play streets of rage!</item>
+        <item>hack his arms!</item>
+        <item>go!</item>
+        <item>freeze him!</item>
+        <item>use your special attack 8 times, then you win!</item>
+        <item>jump onto the pony!</item>
+        <item>use turbobutton</item>
+        <item>dont run into the snakes</item>
+        <item>concentrate</item>
+        <item>move!</item>
+        <item>you need fuel man!</item>
+        <item>use the map!</item>
+        <item>get a longbow!</item>
+        <item>you need to sign his papers!</item>
+        <item>read the manual so you do it right!</item>
+        <item>dont get glue on your fingers!</item>
+        <item>kill a zombie!</item>
+        <item>give her a gun!</item>
+        <item>burn the bridge!</item>
+        <item>you need to turn it</item>
+        <item>you should have healed!</item>
+        <item>you need to upgrade!</item>
+        <item>shoot</item>
+        <item>take the chainsaw!</item>
+        <item>get a hooker</item>
+        <item>find the nukes!</item>
+        <item>throw the torch!</item>
+        <item>stab him in the face!</item>
+        <item>dont move!</item>
+        <item>just get some fire res</item>
+        <item>if you get a stronger bow you can be ranged!</item>
+        <item>get a green parrot!</item>
+        <item>you could solo him!</item>
+        <item>open it!</item>
+        <item>stab her!</item>
+        <item>climb the mountain!</item>
+        <item>dig faster!</item>
+        <item>open it with the crowbar!</item>
+        <item>get the gold man!</item>
+        <item>cut through the mountain!</item>
+        <item>attack!</item>
+        <item>throw spear!</item>
+        <item>hit the head!</item>
+        <item>become a R2D2!</item>
+        <item>kick him</item>
+        <item>drown them!</item>
+        <item>throw them to the sharks!</item>
+        <item>save!</item>
+        <item>burn flag!</item>
+        <item>light them!</item>
+        <item>play the whole game again in colour</item>
+        <item>stream chess!</item>
+        <item>heal!</item>
+        <item>heal!</item>
+        <item>heal!</item>
+        <item>heal!</item>
+        <item>heal!</item>
+        <item>heal!</item>
+        <item>heal!</item>
+        <item>heal!</item>
+        <item>heal!</item>
+        <item>heal!</item>
+        <item>just look at it!</item>
+        <item>peanut butter!</item>
+        <item>dig to the balrog!</item>
+        <item>I would just throw him over</item>
+        <item>just throw him in the water</item>
+        <item>parachute!</item>
+        <item>hit on her hitman!</item>
+        <item>put sleeppills in the soup!</item>
+        <item>take the helicopter</item>
+        <item>act normal</item>
+        <item>kill everyone and drag them to the stair!</item>
+        <item>hide in the locker!</item>
+        <item>poison the sausage?</item>
+        <item>dont kill dog!</item>
+        <item>cook him!</item>
+        <item>get some hair</item>
+        <item>hide in the trashcan!</item>
+        <item>I would dress up as a security guard</item>
+        <item>get a tank minion!</item>
+        <item>backstab and then 4 fireballs</item>
+        <item>be careful for the one breathing fire!</item>
+        <item>I would use a crossbow or something</item>
+        <item>watch out for the radiation suite!</item>
+        <item>get a tandpetare</item>
+        <item>you need to make your own wealth</item>
+        <item>wait for lunch</item>
+        <item>pray to the RNG gods</item>
+        <item>you can buy more guns!</item>
+        <item>shoot him!</item>
+        <item>get a cannon!</item>
+        <item>you need to get some health!</item>
+        <item>get a wench!</item>
+        <item>buy a parrot!</item>
+        <item>kill a seamonster!</item>
+        <item>use that rope you board the ships with to fish whales and eat!</item>
+        <item>throw it to the sharks!</item>
+        <item>dont kill the poor machine!</item>
+        <item>take his clothes!</item>
+        <item>help her!</item>
+        <item>save all!</item>
+        <item>save the crying women!</item>
+        <item>just shoot them all!</item>
+        <item>do mouth to mouth!</item>
+        <item>help that poor woman!</item>
+        <item>dont inspect corpse!</item>
+        <item>lure him into the cage!</item>
+        <item>call the police</item>
+        <item>if you shoot her she explodes!</item>
+        <item>win!</item>
+        <item>shoot qipz!</item>
+        <item>someone beat qipz!</item>
+        <item>you are a dragon fly you fool!</item>
+        <item>make her go off the cliff!</item>
+        <item>carry her</item>
+        <item>touch the lava</item>
+        <item>stay in the flowerr!</item>
+        <item>go into the building!</item>
+        <item>hold it in!</item>
+        <item>report back to base!</item>
+        <item>put the right code in</item>
+        <item>quick before the storm!</item>
+        <item>just fly!</item>
+    </string-array>
+
+</resources>

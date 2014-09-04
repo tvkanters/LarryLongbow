@@ -1,0 +1,11 @@
+<resources>
+    
+    <color name="text">#000</color>
+    
+    <color name="background">#fff</color>
+    <color name="background_dark">#e0e0e0</color>
+    
+    <color name="border">#ccc</color>
+    <color name="border_dark">#aaa</color>
+
+</resources>
