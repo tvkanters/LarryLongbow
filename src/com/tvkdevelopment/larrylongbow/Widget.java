@@ -81,6 +81,8 @@ public class Widget extends AppWidgetProvider {
     public void onReceive(final Context context, final Intent intent) {
         super.onReceive(context, intent);
 
+        initialise(context);
+
         // Don't do anything while Larry is typing
         if (sTypingTimer != null) {
             return;
