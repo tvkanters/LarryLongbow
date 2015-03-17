@@ -1,5 +1,6 @@
 package com.tvkdevelopment.larrylongbow;
 
+import java.util.Locale;
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -109,7 +110,10 @@ public class Widget extends AppWidgetProvider {
 
                     if (sDotCount++ == 3) {
                         // When there are enough dots, show the advice
-                        sViews.setTextViewText(R.id.advice, "<LarryLongbow> " + sAdvice[RNG.nextInt(sAdvice.length)]);
+                        sViews.setTextViewText(
+                                R.id.advice,
+                                "<LarryLongbow> "
+                                        + sAdvice[RNG.nextInt(sAdvice.length)].toLowerCase(Locale.getDefault()));
 
                         // Update the buttons
                         sViews.setTextColor(R.id.requestButton, Color.BLACK);

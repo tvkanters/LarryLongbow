@@ -1,5 +1,6 @@
 package com.tvkdevelopment.larrylongbow;
 
+import java.util.Locale;
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -111,7 +112,8 @@ public class MainActivity extends Activity {
         public void run() {
             if (mDotCount++ == 3) {
                 // When there are enough dots, show the advice
-                mAdviceField.setText("<LarryLongbow> " + mAdvice[RNG.nextInt(mAdvice.length)]);
+                mAdviceField.setText("<LarryLongbow> "
+                        + mAdvice[RNG.nextInt(mAdvice.length)].toLowerCase(Locale.getDefault()));
                 mTypingTimer.cancel();
 
                 // Update the buttons
