@@ -34,4 +34,13 @@
         android:textSize="20sp"
         android:visibility="invisible" />
 
+    <CheckBox
+        android:id="@+id/ttsCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/requestButton"
+        android:layout_below="@+id/requestButton"
+        android:button="@drawable/ttsbutton"
+        android:layout_marginTop="8dp" />
+
 </RelativeLayout>

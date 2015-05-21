@@ -8,10 +8,14 @@ import java.util.TimerTask;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TextView;
 
 /** The activity that lets you ask Larry for advice and shows it */
@@ -21,6 +25,10 @@ public class MainActivity extends Activity {
     private final static Random RNG = new Random();
     /** The amount of ms between each period showing up */
     private final static int TYPE_SPEED = 500;
+    /** The TTS pitch to use for advice */
+    private final static float TTS_PITCH = 1.4f;
+    /** The TTS speed to use for advice */
+    private final static float TTS_SPEED = 1.2f;
 
     /** The possible requests to show in the button */
     private String[] mRequests;
@@ -33,6 +41,8 @@ public class MainActivity extends Activity {
     private TextView mAdviceField;
     /** The button to thank Larry and close the app */
     private Button mThanksButton;
+    /** The button toggle TTS */
+    private CheckBox mTtsCheckbox;
 
     /** The timer used while Larry is typing */
     private Timer mTypingTimer;
@@ -40,6 +50,9 @@ public class MainActivity extends Activity {
     private final TypingRunnable mTypingRunnable = new TypingRunnable();
     /** The amount of dots shown while Larry is typing */
     private int mDotCount;
+
+    /** The TTS engine for pronouncing advice */
+    private TextToSpeech mTts;
 
     /**
      * {@inheritDoc}
@@ -59,6 +72,7 @@ public class MainActivity extends Activity {
         mRequestButton = (Button) findViewById(R.id.requestButton);
         mAdviceField = (TextView) findViewById(R.id.advice);
         mThanksButton = (Button) findViewById(R.id.thanksButton);
+        mTtsCheckbox = (CheckBox) findViewById(R.id.ttsCheckbox);
 
         // Prepare the request button
         generateRequestText();
@@ -91,6 +105,27 @@ public class MainActivity extends Activity {
                 finish();
             }
         });
+
+        // Prepare the TTS checkbox
+        mTtsCheckbox.setChecked(Pref.TTS.getBoolean());
+        mTtsCheckbox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(final CompoundButton buttonView, final boolean isChecked) {
+                Pref.TTS.put(isChecked);
+            }
+        });
+
+        // Prepare the TTS engine
+        mTts = new TextToSpeech(MainActivity.this, new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(final int status) {
+                if (status == TextToSpeech.SUCCESS) {
+                    mTts.setLanguage(Locale.UK);
+                    mTts.setPitch(TTS_PITCH);
+                    mTts.setSpeechRate(TTS_SPEED);
+                }
+            }
+        });
     }
 
     /**
@@ -111,9 +146,10 @@ public class MainActivity extends Activity {
         @Override
         public void run() {
             if (mDotCount++ == 3) {
+                final String advice = mAdvice[RNG.nextInt(mAdvice.length)].toLowerCase(Locale.getDefault());
+
                 // When there are enough dots, show the advice
-                mAdviceField.setText("<LarryLongbow> "
-                        + mAdvice[RNG.nextInt(mAdvice.length)].toLowerCase(Locale.getDefault()));
+                mAdviceField.setText("<LarryLongbow> " + advice);
                 mTypingTimer.cancel();
 
                 // Update the buttons
@@ -121,6 +157,11 @@ public class MainActivity extends Activity {
                 mRequestButton.setTextColor(Color.BLACK);
                 generateRequestText();
                 mThanksButton.setVisibility(View.VISIBLE);
+
+                // Pronounce the advice if needed
+                if (Pref.TTS.getBoolean()) {
+                    mTts.speak(advice, TextToSpeech.QUEUE_FLUSH, null);
+                }
 
             } else {
                 // Add periods while Larry is typing
